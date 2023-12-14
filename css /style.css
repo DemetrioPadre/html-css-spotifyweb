@@ -45,24 +45,34 @@ a {
     padding: 2rem;
 }
 
+/* MAIN */
 
 
-.nav-bar {
-    width: 200px;
-    height: 100vh;
-    background-color: black;
-
+main {
+    height: calc(100vh - 80px);
+    width: 100%;
     display: flex;
 }
 
-.main-top {
+#main-content {
+    width: calc(100% - 200px);
+    height: 100%;
+    background-color: #141922;
+}
+
+#main-top {
     height: 100px;
-    background-color: red;
-    margin-top: 0;
+    width: 100%;
+    background-color: #080b12;
+}
+
+#nav-bar {
+    width: 200px;
+    height: 100%;
+    background-color: #000000;
 }
 
 footer {
-    height: 100px;
-
-    background-color: green;
+    height: 80px;
+    background-color: #282828;
 }
