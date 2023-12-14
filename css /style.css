@@ -58,6 +58,8 @@ main {
     width: 50px;
     height: 100%;
     background-color: #000000;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo-xl {
@@ -73,6 +75,21 @@ main {
 .libreria {
     width: 80%;
     padding: 5px;
+    color: #ffffff;
+}
+
+.libreria {
+    flex-grow: 2;
+}
+
+.arrow {
+    width: 30%;
+    color: #ffffff;
+}
+
+.profilo {
+    width: 40%;
+
 }
 
 /* MAIN CONTENT */
