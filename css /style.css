@@ -46,13 +46,21 @@ a {
 }
 
 /* MAIN */
-
-
 main {
     height: calc(100vh - 80px);
     width: 100%;
     display: flex;
 }
+
+/* NAV_BAR */
+
+#nav-bar {
+    width: 200px;
+    height: 100%;
+    background-color: #000000;
+}
+
+/* MAIN CONTENT */
 
 #main-content {
     width: calc(100% - 200px);
@@ -64,13 +72,22 @@ main {
     height: 100px;
     width: 100%;
     background-color: #080b12;
+    display: flex;
+
 }
 
-#nav-bar {
-    width: 200px;
-    height: 100%;
-    background-color: #000000;
+#main-top-link {
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px 40px;
+    margin-right: 10px;
+
+
 }
+
+
+/* FOOTER */
 
 footer {
     height: 80px;
