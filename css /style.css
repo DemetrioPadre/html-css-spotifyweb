@@ -18,6 +18,8 @@ ul {
 
 li {
     display: inline-block;
+    padding: 20px;
+    padding-bottom: 20px;
 }
 
 a {
@@ -45,6 +47,15 @@ a {
     padding: 2rem;
 }
 
+.col {
+    width: 100%;
+}
+
+.col-1-2 {
+    width: 50%;
+}
+
+
 /* MAIN */
 main {
     height: calc(100vh - 80px);
@@ -66,9 +77,6 @@ main {
     display: none;
 }
 
-
-
-
 .logo-small,
 .home,
 .lente,
@@ -85,6 +93,7 @@ main {
 .arrow {
     width: 30%;
     color: #ffffff;
+    padding-bottom: 30px;
 }
 
 .profilo {
@@ -92,12 +101,22 @@ main {
 
 }
 
+span {
+    color: white;
+    display: none;
+}
+
 /* MAIN CONTENT */
+
+#main-center {
+    overflow: scroll;
+}
 
 #main-content {
     width: calc(100% - 50px);
     height: 100%;
     background-color: #141922;
+
 }
 
 #main-top {
@@ -114,9 +133,42 @@ main {
     border-radius: 30px;
     padding: 15px 40px;
     margin-right: 10px;
+}
 
+.main-center-link {
+    color: #7c7e83;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 10px;
 
 }
+
+.main-center-link:nth-last-child(2+1) {
+    display: flex;
+    text-align: center;
+}
+
+.main-center-card {
+    padding-left: 10px;
+}
+
+h2 {
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    padding: 15px;
+    display: flex;
+    background-size: cover;
+}
+
+
 
 
 /* FOOTER */
