@@ -55,6 +55,10 @@ a {
     width: 50%;
 }
 
+.col-1-3 {
+    width: 30%;
+}
+
 
 /* MAIN */
 main {
@@ -108,15 +112,13 @@ span {
 
 /* MAIN CONTENT */
 
-#main-center {
-    overflow: scroll;
-}
+
 
 #main-content {
     width: calc(100% - 50px);
     height: 100%;
     background-color: #141922;
-
+    overflow: scroll;
 }
 
 #main-top {
@@ -167,9 +169,6 @@ h2 {
     display: flex;
     background-size: cover;
 }
-
-
-
 
 /* FOOTER */
 
