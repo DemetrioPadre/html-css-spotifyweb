@@ -51,9 +51,10 @@ a {
 }
 
 .debug {
-    min-height: 80px;
+    /* min-height: 80px;
     background-color: #888;
-    padding: 2rem;
+    padding: 2rem; */
+    border: 1px dashed red;
 }
 
 .col {
@@ -106,7 +107,7 @@ main {
     display: none;
     color: white;
     color: grey;
-    font-size: 10px;
+    font-size: 8px;
 }
 
 #playlist {
@@ -145,7 +146,7 @@ h3 {
 }
 
 .libreria {
-    flex-grow: 2;
+    /* flex-grow: 2; */
 }
 
 .arrow {
@@ -240,7 +241,7 @@ h2 {
     object-fit: cover;
     overflow: hidden;
 
-    line-height: 200px;
+
 }
 
 /* FOOTER */
@@ -248,29 +249,88 @@ h2 {
 footer {
     height: 80px;
     background-color: #282828;
+    width: 100%;
+    display: flex;
 }
 
 .left-foot {
-    padding: 10px;
+    padding: 5px;
+    width: 20%;
+    height: 80px;
+    margin: 0;
+}
+
+.foot-col-70 {
+    width: 70%;
+}
+
+.foot-col-30 {
+    width: 30%;
 }
 
 .card-foot {
-    width: 50px;
-    height: 50px;
-    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
 
 
 }
 
+.row-foot {
+    display: flex;
+}
+
+.foot-sub {
+    padding: 5px;
+}
+
+.foot-album-title {
+    color: white;
+    font-size: 18px;
+}
+
+.foot-sub-album {
+    color: #7c7e83;
+    font-size: 10px;
+}
+
+.foot-like {
+    color: #7c7e83;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.main-center-foot {
+    width: 60%;
+    height: 80px;
+
+}
+
+.main-center-ftop {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.song-play {
+    font-size: 30px;
+}
+
+.main-center-foot {
+    width: 60%;
+    height: 80px;
+}
 
 
+.right-foot {
+    width: 20%;
+    height: 80px;
+}
 
-
-
-
-
-
-
+.
 /* media query */
 @media screen and(min-width:480px) {}
 
