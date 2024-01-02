@@ -58,7 +58,7 @@ a {
 }
 
 .col {
-    width: 50%;
+    width: 100%;
     display: flex;
     padding: 10px;
 }
@@ -103,7 +103,7 @@ main {
 .home,
 .lente,
 .libreria {
-    width: 80%;
+    width: 50%;
     padding: 5px;
     color: #ffffff;
     margin: 5px 0;
@@ -118,13 +118,12 @@ main {
 
 #playlist {
     display: none;
-    padding: 20px;
-    display: flex;
-
+    padding: 10px;
+    display: none;
     color: grey;
     /* font-size: 10px; */
     padding-top: 10px;
-    line-height: 30px;
+    line-height: 15px;
 }
 
 h3 {
@@ -139,8 +138,8 @@ h3 {
 
 .btn-add-list {
 
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: #888;
     margin-left: 0px;
     border-radius: 10px;
@@ -150,24 +149,28 @@ h3 {
 .plus {
     text-align: center;
     font-size: 30px;
-
     color: black;
+
 }
 
-.nome-playlist {}
+
 
 .libreria {
-    /* flex-grow: 2; */
+    /*
+    flex-grow: 2;*/
 }
 
 .arrow {
-    width: 30%;
+    width: 40%;
     color: grey;
     padding-bottom: 30px;
+    margin-left: 10px;
+    display: flex;
 }
 
 .profilo {
     width: 40%;
+    margin-top: auto;
 }
 
 .profilo-radius {
@@ -368,7 +371,7 @@ footer {
     }
 
     .logo-xl {
-        width: 80%;
+        width: 50%;
         display: block;
         margin: 10px;
     }
@@ -376,8 +379,8 @@ footer {
     .home,
     .lente,
     .libreria {
-        width: 20%;
-        padding: 5px;
+        width: 15%;
+        padding: 0;
         color: #ffffff;
         display: flex;
         margin-left: 10px;
@@ -406,8 +409,14 @@ footer {
         display: block;
     }
 
+    .user-profile {
+        display: flex;
+        align-content: start;
+    }
+
+
     .arrow {
-        width: 10%;
+        width: 15px;
         color: #ffffff;
         margin-left: 10px;
         padding-bottom: 30px;
@@ -415,7 +424,7 @@ footer {
     }
 
     .profilo {
-        width: 10%;
+        width: 15px;
         margin-left: 10px;
         display: flex;
 
@@ -431,7 +440,10 @@ footer {
     .col {
         width: calc(100% / 6);
 
+
     }
+
+
 
     .John {
         display: flex;

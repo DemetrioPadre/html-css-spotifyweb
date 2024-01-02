@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Spotify</title>
 
     <!-- LINK CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -23,12 +23,11 @@
     <main>
         <!-- NAV BAR-->
         <div id="nav-bar">
-            <div class="logo-small">
-                <img src="./img/logo-small.svg" alt="">
+            <div>
+                <img class="logo-small" src="./img/logo-small.svg" alt="">
+                <img class="logo-xl" src="./img/logo.svg" alt="">
             </div>
-            <div class="logo-xl">
-                <img src="./img/logo.svg" alt="">
-            </div>
+
             <div class="home ">
                 <img src="./img/home.svg" alt="">
                 <span class="bar-title">Home</span>
@@ -41,19 +40,20 @@
             </div>
             <div class="libreria"><img src="./img/libreria.svg" alt="">
                 <span class="bar-title">La tua libreria</span>
-
-
             </div>
             <!-- aggiungere playlist -->
 
             <div id="playlist">
                 <h3>PLAYLIST</h3>
-                <div class="btn-cont">
-                    <button class="btn-add-list">
-                        <i class="fa-solid fa-plus plus"></i>
-                    </button>
-                    <span>Crea Playlist</span>
-                </div>
+                <a href="#">
+                    <div class="btn-cont">
+                        <button class="btn-add-list">
+                            <i class="fa-solid fa-plus plus"></i>
+                        </button>
+                        <span>Crea Playlist</span>
+                    </div>
+                </a>
+
 
 
                 <!-- <span class="plus plus-container">+</span> -->
@@ -76,15 +76,20 @@
 
 
             <div class="arrow">
+                <a href="#"></a>
                 <img src="./img/download.svg" alt="">
                 <span>Installa app</span>
 
             </div>
+
             <div class="profilo">
                 <img src="./img/profile.svg" alt="">
                 <img class="profilo-radius" src="./img/profile.svg" alt="">
                 <span>John doe</span>
             </div>
+
+
+
 
         </div>
 
@@ -159,17 +164,16 @@
                         Più ascolti, più accurati saranno i suggerimenti.
                     </p>
                     <div class="row John">
-                        <div class="col ">
+                        <div class="col">
                             <div class="card">
                                 <img src="./img/radar.jpeg" alt="">
                             </div>
 
                         </div>
-                        <div class="col ">
+                        <div class="col">
                             <div class="card">
                                 <img src="./img/mixdaily.jpeg" alt="">
                             </div>
-
                         </div>
                     </div>
 
