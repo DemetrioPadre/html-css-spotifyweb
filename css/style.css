@@ -317,12 +317,12 @@ footer {
     margin: 0;
 }
 
-.foot-col-70 {
-    width: 70%;
+.foot-col-60 {
+    width: 60%;
 }
 
-.foot-col-30 {
-    width: 30%;
+.foot-col-40 {
+    width: 40%;
 }
 
 .card-foot {
@@ -368,9 +368,18 @@ footer {
 .main-center-ftop {
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
 }
+
+.shuffle,
+.song-back,
+.song-play,
+.song-forw,
+.repeat {
+    margin: 0 10px;
+}
+
 
 .song-play {
     font-size: 30px;
@@ -381,11 +390,27 @@ footer {
     height: 80px;
 }
 
+.main-center-fbot {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
 
-.right-foot {
+.progress-bar {
+    height: 5px;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: white;
+}
 
-    width: 20%;
-    height: 80px;
+
+/* .right-foot {
+    margin: 20px;
+} */
+
+.row-foot {
+    display: flex;
 }
 
 .media-foot {
@@ -395,10 +420,20 @@ footer {
     margin: 10px;
 }
 
+.list,
+.dispositivo,
+.volume {
+    margin: 5px;
+}
 
+.progress-volume {
+    height: 5px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: white;
 
-
-
+}
 
 /* media query */
 @media screen and(min-width:480px) {}
