@@ -88,6 +88,7 @@ main {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
+
 }
 
 #nav-bar :last-child {
@@ -307,6 +308,7 @@ footer {
     background-color: #282828;
     width: 100%;
     display: flex;
+    position: fixed;
 
 }
 
@@ -393,21 +395,66 @@ footer {
 .main-center-fbot {
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+
 }
 
 .progress-bar {
     height: 5px;
-    width: 500px;
+    width: 600px;
     border-radius: 10px;
-    margin-top: 5px;
-    background-color: white;
+    margin: 5px 20px 20px;
+    background-color: grey;
+    position: relative;
 }
 
+.bar-30 {
+    width: 30%;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
 
-/* .right-foot {
-    margin: 20px;
-} */
+/* AFTER FOOTER */
+
+.progress-bar:hover>.bar-30::after {
+    content: '';
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.progress-volume:hover>.bar-30::after {
+    content: '';
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* HOVER FOOTER */
+
+.progress-bar:hover>.bar-30 {
+    background-color: lime;
+    cursor: pointer;
+}
+
+.progress-volume:hover>.bar-30 {
+    background-color: lime;
+    cursor: pointer;
+}
+
+/* fine Hover */
 
 .row-foot {
     display: flex;
@@ -431,9 +478,10 @@ footer {
     width: 100px;
     border-radius: 10px;
     margin-top: 30px;
-    background-color: white;
-
+    background-color: grey;
+    position: relative;
 }
+
 
 /* media query */
 @media screen and(min-width:480px) {}
