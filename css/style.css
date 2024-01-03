@@ -263,6 +263,7 @@ h2 {
 }
 
 .card {
+
     padding: 5px;
     display: flex;
     background-size: cover;
@@ -303,11 +304,6 @@ h2 {
     bottom: 50%;
     transform: translate(-50%, -50%);
     align-items: center;
-
-
-
-
-
 }
 
 .grey {
@@ -534,10 +530,7 @@ footer {
         color: #ffffff;
         display: flex;
         margin-left: 10px;
-
     }
-
-
 
     .bar-title {
         display: inline;
@@ -601,20 +594,12 @@ footer {
     /**/
     .col {
         width: calc(100% / 6);
-
-
     }
-
-
 
     .John {
         display: flex;
         text-align: left;
     }
-
-
-
-
 
     .logo-xl {
         display: block;
@@ -624,8 +609,9 @@ footer {
 
     .radius {
         border-radius: 50%;
-        height: 150px;
-        width: 150px;
+        /* height: 150px;
+        width: 150px; */
+        width: 100%;
         object-fit: cover;
         overflow: hidden;
 
