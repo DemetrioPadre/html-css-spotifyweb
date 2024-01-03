@@ -163,7 +163,12 @@ h3 {
     padding-bottom: 30px;
     margin-left: 15px;
     display: flex;
+}
 
+.border-bott-arrow {
+    border: 1px solid grey;
+    width: 80%;
+    margin-left: 20px;
 }
 
 .profilo {
@@ -561,10 +566,10 @@ footer {
 
 
     .arrow {
-        width: 15px;
+        width: 25px;
         color: #ffffff;
         margin-left: 10px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         display: flex;
     }
 
