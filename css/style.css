@@ -109,7 +109,7 @@ main {
     margin: 5px 15px;
 }
 
-.border-home {
+.border-home:hover {
     border-left: 3px solid lime;
 
 }
@@ -205,11 +205,6 @@ span {
     background-color: #080b12;
     display: flex;
     justify-content: end;
-
-
-
-
-
 }
 
 #main-top-link {
@@ -237,8 +232,11 @@ span {
     margin: 0 15px;
 }
 
-.link-border {
+.link-border:hover {
     border-bottom: 3px solid lime;
+    /* width: 50px;
+    display: flex;
+    justify-content: center; */
 }
 
 
@@ -283,8 +281,14 @@ h2 {
     padding-top: 10px;
 }
 
-.hover {
+.play-hover:hover {
+    content: '';
+    font-size: 50px;
+    color: white;
     position: absolute;
+    cursor: pointer;
+    top: 50%;
+
 }
 
 .grey {
@@ -458,6 +462,7 @@ footer {
 
 .row-foot {
     display: flex;
+
 }
 
 .media-foot {
